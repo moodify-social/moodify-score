@@ -5,7 +5,7 @@ exports.handler = async function(event) {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
-  const apiKey = 'sk-ant-api03-...' ;
+  const apiKey = 'sk-ant-api03-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';
   if (!apiKey) {
     return { statusCode: 500, body: JSON.stringify({ error: 'API key not configured' }) };
   }
